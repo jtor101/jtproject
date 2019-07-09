@@ -1,1 +1,65 @@
-h1 {color: green;}
+header h1 {color: white;
+}
+
+body {background-color: gray;
+}
+
+nav {
+    width: 80%;
+}
+
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+    width: 20%;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: lightblue;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 20px 35px 20px;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+img {padding-bottom: 20px;}
+
+.burger {
+    width: 50%;
+    height: 50%;
+    border-radius: 20%;
+    clear: left;
+    float: left;
+    }
+
+.waffle {
+    width: 40%;
+    border-radius: 20%;
+    float: left;
+}
+
+section h3 {
+    clear: left;
+    color: blue;
+    text-decoration: underline;
+    font-size: 2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px 20px 0px 20px;
+}
+
+article {
+    color: white;
+    width: 70%;
+    font-size: 1em;
+    padding-top: 10px;
+    margin: 0px 20px 0px 20px;
+}
