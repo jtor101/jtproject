@@ -1,9 +1,11 @@
-header h1 {color: white;
-           text-align: center;
+header h1 {
+    color: white;
+    text-align: center;
 }
 /* Background Color & Nav */
 
-body {background-color: gray;
+body {
+    background-color: gray;
 }
 
 nav {
@@ -35,13 +37,15 @@ nav li a:hover {
 
 /* Image Formatting */
 
-img {padding-bottom: 20px;}
+img {
+    padding-bottom: 20px;
+}
 
 .burger {
     width: 45%;
     height: 45%;
     border-radius: 20%;
-    }
+}
 
 .waffle {
     width: 35%;
