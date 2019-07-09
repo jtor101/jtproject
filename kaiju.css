@@ -107,3 +107,8 @@ img {
     color: white;
     border: 1px solid white;
 }
+
+.history {
+    width: 60%;
+    text-align: center;
+}
