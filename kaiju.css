@@ -1,13 +1,15 @@
 header h1 {color: white;
+           text-align: center;
 }
+/* Background Color & Nav */
 
 body {background-color: gray;
 }
 
 nav {
-    width: 80%;
+    text-align: center;
+    margin: 0px 20px 0px 0px;
 }
-
 
 nav ul {
     list-style-type: none;
@@ -21,33 +23,42 @@ nav ul li {
 nav ul li a {
     display: inline-block;
     color: lightblue;
+    font-size: 1.2em;
     text-align: center;
     text-decoration: none;
     padding: 5px 20px 35px 20px;
 }
 
 nav li a:hover {
-    text-decoration: underline;
+    text-decoration: overline;
 }
+
+/* Image Formatting */
 
 img {padding-bottom: 20px;}
 
 .burger {
-    width: 50%;
-    height: 50%;
+    width: 45%;
+    height: 45%;
     border-radius: 20%;
-    clear: left;
-    float: left;
     }
 
 .waffle {
-    width: 40%;
+    width: 35%;
     border-radius: 20%;
-    float: left;
 }
 
-section h3 {
-    clear: left;
+/*About & Event Sections */
+
+.about {
+    clear: both;
+    float: left;
+    width: 40%;
+    padding-right: 25px;
+}
+
+
+.about h3, .events h3 {
     color: blue;
     text-decoration: underline;
     font-size: 2em;
@@ -56,10 +67,33 @@ section h3 {
     margin: 0px 20px 0px 20px;
 }
 
-article {
+.about article {
     color: white;
-    width: 70%;
     font-size: 1em;
     padding-top: 10px;
     margin: 0px 20px 0px 20px;
+}
+
+.events {
+    float: left;
+    width: 40%;
+    padding-left: 20px;
+}
+
+.events table {
+    border: 1px solid white;
+}
+
+.events th {
+    font-size: 1.3em;
+    padding: 10px;
+    color: lightblue;
+    text-decoration: underline;
+    border: 1px solid white;
+}
+
+.events td {
+    padding: 10px;
+    color: white;
+    border: 1px solid white;
 }
