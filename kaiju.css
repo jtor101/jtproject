@@ -10,7 +10,7 @@ body {
 
 nav {
     text-align: center;
-    margin: 0px 20px 0px 0px;
+    padding: 0px 0px 20px 0px;
 }
 
 nav ul {
@@ -65,7 +65,7 @@ img {
 
 
 .about h3, .events h3 {
-    color: blue;
+    color: lightblue;
     text-decoration: underline;
     font-size: 2em;
     padding-top: 10px;
@@ -85,6 +85,7 @@ img {
     width: 40%;
     padding-left: 20px;
     text-align: right;
+    
 }
 
 .events table {
